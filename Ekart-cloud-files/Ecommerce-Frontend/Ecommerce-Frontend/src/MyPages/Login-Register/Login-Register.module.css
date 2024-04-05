@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body3{
+    background: url(../images/login.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    background-position: bottom;
+    float: left;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container
+{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #fff; */
+    /* border:1px solid black; */
+    /* border-radius:10px; */
+    align-items: center;
+    /* background-color: beige; */
+    padding: 20px;
+    text-align: center;
+}
+
+.container h2
+{
+    font-family: 'Preahvihear', sans-serif;
+    /* width: 400px;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    padding-top: 30px; */
+}
+
+.main_inp
+{
+    display: flex;
+    justify-content: right;
+    padding: 10px 0;
+    /* background-col   or: #fff; */
+}
+
+.btn1
+{
+    font-family: 'Preahvihear', sans-serif;
+}
+
+.labels {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    /* background-color: #875757; */
+}
+
+.labels label {
+    padding: 7px 0;
+    font-weight: 500;
+    font-size: large;
+}
+
+.container p {
+    font-family: sans-serif;
+    /* font-size: 10px; */
+}
+
+.inputs input{
+    width: 200px;
+    margin: 10px 10px 10px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 7px 10px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inputs input:focus{
+    outline-color: rgb(0, 187, 255);
+}
+
+.inputs input::placeholder
+{
+    
+    color: rgb(0, 0, 0);
+}
+
+.p
+{
+    width: 400px;
+    /* border-bottom: 2px solid rgb(255, 0, 0); */
+    /* border-radius: 30px; */
+    padding-bottom: 30px;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
